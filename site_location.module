@@ -7,8 +7,10 @@ function site_location_theme($existing, $type, $theme, $path) {
   return [
     'site_location_block' => [
       'variables' => [
-        'datetime' => NULL,
+        'date' => NULL,
+        'time' => NULL,
         'city' => NULL,
+        'timezone_city' => NULL,
         'country' => NULL,
       ],
     ],

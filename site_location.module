@@ -8,6 +8,8 @@ function site_location_theme($existing, $type, $theme, $path) {
     'site_location_block' => [
       'variables' => [
         'datetime' => NULL,
+        'city' => NULL,
+        'country' => NULL,
       ],
     ],
   ];

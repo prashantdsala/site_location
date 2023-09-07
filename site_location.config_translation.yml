@@ -1,0 +1,5 @@
+site_location.config:
+  title: 'Site location settings'
+  base_route_name: site_location.config
+  names:
+    - 'site_location.adminsettings'

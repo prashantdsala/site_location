@@ -1,0 +1,9 @@
+name: Site Location
+description: Displays location and current time based on timezone.
+package: Custom
+type: module
+core_version_requirement: ^10
+dependencies:
+  - drupal:locale
+  - drupal:config_translation
+configure: site_location.config

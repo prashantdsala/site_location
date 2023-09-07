@@ -1,0 +1,10 @@
+country: 'India'
+city: 'Dharamshala'
+timezone: 'Asia/Kolkata'
+langcode: en
+dependencies:
+  module:
+    - site_location
+  enforced:
+    module:
+      - site_location

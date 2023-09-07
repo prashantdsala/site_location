@@ -1,0 +1,4 @@
+site_location.config:
+  route_name: site_location.config
+  title: Settings
+  base_route: site_location.config

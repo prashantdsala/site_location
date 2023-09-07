@@ -1,0 +1,6 @@
+site_location.config:
+  title: 'Site location settings'
+  route_name: site_location.config
+  description: 'Configure location and timezone settings.'
+  parent: system.admin_config_system
+  weight: 99

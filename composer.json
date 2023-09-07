@@ -1,0 +1,6 @@
+{
+    "name": "drupal/site_location",
+    "type": "drupal-custom-module",
+    "description": "Displays location and current time based on timezone.",
+    "keywords": ["Drupal"]
+}

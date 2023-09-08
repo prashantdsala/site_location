@@ -1,0 +1,5 @@
+# Custom library for general purposes.
+site-location:
+  css:
+    component:
+      css/site-location-block.css: {}

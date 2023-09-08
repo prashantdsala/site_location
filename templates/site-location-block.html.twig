@@ -1,3 +1,7 @@
 <div id = "site-location">
-{{ datetime }}
+  <div id="site-location-time"><strong>{{ time|lower}}</strong></div>
+  <div class="site-location-details">
+    <div id="site-location-date">{{ date | date('l, d F Y') }}</div>
+    <div id="site-location-location">Time in {{ timezone_city|replace({'_': ' '}) }}, {{ city|upper }}, {{ country|upper }}</div>
+  </div>
 </div>

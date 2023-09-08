@@ -1,3 +1,17 @@
+{#
+/**
+ * @file
+ * Site location theme implementation to display a block.
+ *
+ * Available variables:
+ * - time: Current time based on the timezone.
+ * - date: Current date.
+ * - timezone_city: City name extracted from the timezone.
+ * - city: City name configured in the City field.
+ * - country: Country name configured in the Country field.
+ *
+ */
+#}
 <div id = "site-location">
   <div id="site-location-time"><strong>{{ time|lower}}</strong></div>
   <div class="site-location-details">

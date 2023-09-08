@@ -11,3 +11,6 @@ site_location.adminsettings:
     timezone:
       type: text
       label: 'Timezone'
+    dependencies:
+      type: config_dependencies
+      label: 'Dependencies'
